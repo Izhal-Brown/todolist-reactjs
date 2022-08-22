@@ -1,0 +1,92 @@
+body {
+  background-color: black !important;
+}
+
+.container {
+  width: 25rem;
+  margin-Left: auto;
+  margin-Right: auto;
+  padding: 10px 20px 10px 6px;
+}
+
+.input-todo {
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
+  border: 1px solid whitesmoke;
+  border-radius: 20px;
+  margin-bottom: 50px;
+}
+
+.update-todo {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(218, 238, 255);
+  border: 1px solid whitesmoke;
+  border-radius: 20px;
+  margin-top: 50px;
+}
+
+.form-label {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.form-control {
+  margin-left: 0px;
+  margin-bottom: 10px;
+}
+
+.btn {
+  margin-top: 30px;
+  padding: 10px 50px;
+}
+
+.map-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 18rem;
+  margin-Left: auto;
+  margin-Right: auto;
+}
+
+.cards {
+  display: inline-block;
+  padding-top: 15px;
+  margin: 5px 10px;
+}
+
+.card-body{
+  display: flex;
+  flex-direction: column;
+}
+
+.card-title{
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.card-text{
+  display: flex;
+  flex-direction: column;
+}
+
+.card-text .category{
+  align-self: flex-start;
+  font-weight: bold;
+  margin-bottom: -15px;
+}
+
+.card-text .todo{
+  align-self: flex-start;
+}
+
+.card-body .btn{
+  width: fit-content;
+  padding: 5px 20px;
+  margin: 20px 10px 10px;
+}
